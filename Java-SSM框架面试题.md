@@ -26,9 +26,7 @@
     
              属性defaultValue– 如果没有传递请求参数，使用什么默认值
     
-             属性required – 是否是一个必要的请求参数，默认值是true，如果必要参数没有传递，
-    
-    页面显示400错误，是请求错误
+             属性required – 是否是一个必要的请求参数，默认值是true，如果必要参数没有传递，页面显示400错误，是请求错误
     
     @RequestParam(value=”TXT_PWD”,defaultValue=”123123”,required=”true”)Stringpassword
     
